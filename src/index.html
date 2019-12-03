@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body> 
-        <header class="header">
-      <div class="logo1">
-      </div>
-      <div class="logo2">
-        <img>
-      </div>
-      <nav class="menu">
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Tipos de Pokemón</a></li>
-          <li><a href="#">Filtrar</a></li>
-    
-      </nav>
+    <header class="header-fixed">
+        <div class="logo1">
+          <img src="images/titpoke.jpeg">
+        </div> 
+        <div class="logo2">
+         
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Buscar</a></li>
+            <li><a href="#">Pokedéx</a></li>
+            <li><a href="#">Tipos de Pokemón</a></li>
+            <li><a href="#">Inicio<a></li>
+        </nav>
     </header>
     <main>
       <div class="contenedor1">
@@ -28,31 +29,39 @@
           <p>Bienvenido al sitio web donde podrás encontrar información detallada de pokemón,
              de acuerdo a su tipo aquí se incluye características sobre altura, peso, caramelos 
              y demás. </p>
-             <p>Más sobre Pokemón</p>
-             <p>Más sobre Pokemón Go</p>
+             <p>Más sobre Pokemón:
+               <br>
+               <img src="images/pokeinfo.jpeg">
+             </p>
+             <p>Más sobre Pokemón Go:
+               <br>
+               <img src="images/pokegoinfo.jpeg">
+             </p>
       </div>
       <div class="contenedor2">
         <h2>Tipos de Pokemón</h2>
-        <input type="button" value="Acero" id="Steel" />
-        <input type="button" value="Agua" id="Water" />
-        <input type="button" value="Bicho" id="Bug" />
-        <input type="button" value="Dragón" id="Dragon" />
-        <input type="button" value="Eléctrico" id="Electric" />
-        <input type="button" value="Fantasma" id="Ghost" />
+        <div class="botones">
+        <input type="button" class="steelbutton" id="Steel" />
+        <input type="button" class="waterbutton" id="Water" />
+        <input type="button" class="bugbutton" id="Bug" />
+        <input type="button" class="dragonbutton" id="Dragon" />
+        <input type="button" class="electricbutton" id="Electric" />
+        <input type="button" class="ghostbutton" id="Ghost" />
         <br>
-        <input type="button" value="Fuego" id="Fire" />
-        <input type="button" value="Hada" id="Fairy" />
-        <input type="button" value="Hielo" id="Ice" />
-        <input type="button" value="Lucha" id="Fight" />
-        <input type="button" value="Normal" id="Normal" />
-        <input type="button" value="Planta" id="Grass" />
+        <input type="button" class="firebutton" id="Fire" />
+        <input type="button" class="fairybutton" id="Fairy" />
+        <input type="button" class="icebutton" id="Ice" />
+        <input type="button" class="fightbutton" id="Fight" />
+        <input type="button" class="normalbutton" id="Normal" />
+        <input type="button" class="grassbutton" id="Grass" />
         <br>
-        <input type="button" value="Psíquico" id="Psychic" />
-        <input type="button" value="Roca" id="Rock" />
-        <input type="button" value="Siniestro" id="Dark" />
-        <input type="button" value="Tierra" id="Ground" />
-        <input type="button" value="Veneno" id="Poison" />
-        <input type="button" value="Volador" id="Flying" />
+        <input type="button" class="psychicbutton" id="Psychic" />
+        <input type="button" class="rockbutton" id="Rock" />
+        <input type="button" class="darkbutton" id="Dark" />
+        <input type="button" class="groundbutton" id="Ground" />
+        <input type="button" class="poisonbutton" id="Poison" />
+        <input type="button" class="flyingbutton" id="Flying" />
+        </div>
       </div>
     </main>
     <div id="root"></div>

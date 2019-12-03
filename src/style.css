@@ -1,0 +1,137 @@
+.header-fixed {
+    width:95%;
+    max-width:500px;
+    margin:auto;
+    position:fixed;
+    display: inline-blocks
+}
+.logo1 {
+}
+header nav {
+    background:black
+}
+    header nav ul {
+        list-style:none;
+        overflow:hidden;
+    }
+        header nav ul li {
+            float:right;
+        }
+            header nav ul li a {
+              display:block;
+              padding:15px;
+              color:white;
+              text-decoration:none;
+              font-size: 21px;
+            }
+                header nav ul li a:hover {
+                    background:grey;
+                }
+    .steelbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Acero.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .waterbutton {
+        background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Agua.jpg);
+        height:130px;
+        width:130px;
+        background-position:center;
+    }
+    .bugbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Bicho.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .dragonbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Dragon.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .electricbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Electrico.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .ghostbutton{
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Fantasma.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .firebutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Fuego.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .fairybutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Hada.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .icebutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Hielo.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .fightbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Lucha.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .normalbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Normal.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .grassbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Planta.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .psychicbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Psiquico.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .rockbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Roca.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .darkbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Siniestro.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .groundbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Tierra.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .poisonbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Veneno.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
+    .flyingbutton {
+    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Volador.jpg);
+    height:130px;
+    width:130px;
+    background-position:center;
+}
