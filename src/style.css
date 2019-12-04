@@ -1,137 +1,150 @@
-.header-fixed {
-    width:95%;
-    max-width:500px;
-    margin:auto;
-    position:fixed;
-    display: inline-blocks
+@font-face {
+    font-family: 'pokemon';
+    src: url('./assets/fonts/Pokemon\ Solid.ttf');
 }
-.logo1 {
+
+.header-fixed {  
+  width: 100%;
+  margin: auto;
 }
+.pokeb {
+    width: 10%;
+    float: left;
+}
+
 header nav {
-    background:black
+  background: black
 }
-    header nav ul {
-        list-style:none;
-        overflow:hidden;
-    }
-        header nav ul li {
-            float:right;
-        }
-            header nav ul li a {
-              display:block;
-              padding:15px;
-              color:white;
-              text-decoration:none;
-              font-size: 21px;
-            }
-                header nav ul li a:hover {
-                    background:grey;
-                }
-    .steelbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Acero.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+header nav ul {
+  list-style: none;
+  overflow: hidden;
 }
-    .waterbutton {
-        background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Agua.jpg);
-        height:130px;
-        width:130px;
-        background-position:center;
-    }
-    .bugbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Bicho.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+header nav ul li {
+  float: right;
 }
-    .dragonbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Dragon.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+header nav ul li a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
 }
-    .electricbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Electrico.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+header nav ul li a:hover {
+  background: grey;
 }
-    .ghostbutton{
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Fantasma.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.btn-poke {
+  height: 130px;
+  width: 130px;
+  background-position: center;
+  cursor: pointer;
 }
-    .firebutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Fuego.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+
+
+.steelbutton {
+  background-image: url(./assets/images/Simbolos/Acero.jpg);
+  
 }
-    .fairybutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Hada.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.waterbutton {
+  background-image: url(./assets/images/Simbolos/Agua.jpg);
 }
-    .icebutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Hielo.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.bugbutton {
+  background-image: url(./assets/images/Simbolos/Bicho.jpg);
 }
-    .fightbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Lucha.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.dragonbutton {
+  background-image: url(./assets/images/Simbolos/Dragon.jpg);
 }
-    .normalbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Normal.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.electricbutton {
+  background-image: url(./assets/images/Simbolos/Electrico.jpg);
 }
-    .grassbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Planta.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.ghostbutton {
+  background-image: url(./assets/images/Simbolos/Fantasma.jpg);
 }
-    .psychicbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Psiquico.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.firebutton {
+  background-image: url(./assets/images/Simbolos/Fuego.jpg);
 }
-    .rockbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Roca.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.fairybutton {
+  background-image: url(./assets/images/Simbolos/Hada.jpg);
 }
-    .darkbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Siniestro.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.icebutton {
+  background-image: url(./assets/images/Simbolos/Hielo.jpg);
 }
-    .groundbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Tierra.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.fightbutton {
+  background-image: url(./assets/images/Simbolos/Lucha.jpg);
 }
-    .poisonbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Veneno.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.normalbutton {
+  background-image: url(./assets/images/Simbolos/Normal.jpg);
 }
-    .flyingbutton {
-    background-image:url(file:///home/laboratoriad316/Escritorio/POKEMON%20GO/SCL012-data-lovers/src/images/Simbolos/Volador.jpg);
-    height:130px;
-    width:130px;
-    background-position:center;
+
+.grassbutton {
+  background-image: url(./assets/images/Simbolos/Planta.jpg);
+}
+
+.psychicbutton {
+  background-image: url(./assets/images/Simbolos/Psiquico.jpg);
+}
+
+.rockbutton {
+  background-image: url(./assets/images/Simbolos/Roca.jpg);
+}
+
+.darkbutton {
+  background-image: url(./assets/images/Simbolos/Siniestro.jpg);
+}
+
+.groundbutton {
+  background-image: url(./assets/images/Simbolos/Tierra.jpg);
+}
+
+.poisonbutton {
+  background-image: url(./assets/images/Simbolos/Veneno.jpg);
+}
+
+.flyingbutton {
+  background-image: url(./assets/images/Simbolos/Volador.jpg);
+}
+
+
+.publish-images {
+    display: flex;
+}
+
+.publish-image {
+    width: 30%;
+    padding-right: 30px; 
+}
+
+.publish-image img {
+    width: 100%
+}
+
+#root {
+ display: flex;
+ flex-wrap: wrap;
+}
+.card-pokemon {
+    border: 1px solid green;
+    width: 200px;
+    height: 230px;
+    flex: 1 1 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
 }

@@ -1,70 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>Data Lovers</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body> 
-    <header class="header-fixed">
-        <div class="logo1">
-          <img src="images/titpoke.jpeg">
-        </div> 
-        <div class="logo2">
-         
+
+<head>
+  <meta charset="UTF-8">
+  <title>Data Lovers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header-fixed">
+    <div>
+      <a href="https://fontmeme.com/fuentes/fuente-pokmon/"><img src="https://fontmeme.com/permalink/191204/1da744aaaf510dc6f7ca3386367e9ddc.png" alt="fuente-pokmon" border="0"></a>
+     <img class= "pokeb" src="./assets/images/Pokebola.png">
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a id="buscar" href="#">Buscar</a></li>
+        <li><a id="pokedex" href="#">Pokedéx</a></li>
+        <li><a id="tipos" href="#">Tipos de Pokemón</a></li>
+        <li><a id="inicio" href="#">Inicio</a></li>
+    </nav>
+  </header>
+  <main>
+    <div class="contenedor1">
+      <p>Bienvenido al sitio web donde podrás encontrar información detallada de pokemón,
+        de acuerdo a su tipo aquí se incluye características sobre altura, peso, caramelos
+        y demás. </p>
+      <div class="publish-images">
+        <div class="publish-image">
+          <p>Más sobre Pokemón:</p>
+          <img src="./assets/images/pokeinfo.jpeg">
         </div>
-        <nav class="menu">
-          <ul>
-            <li><a href="#">Buscar</a></li>
-            <li><a href="#">Pokedéx</a></li>
-            <li><a href="#">Tipos de Pokemón</a></li>
-            <li><a href="#">Inicio<a></li>
-        </nav>
-    </header>
-    <main>
-      <div class="contenedor1">
-        <h1>Inicio</h1>
-          <p>Bienvenido al sitio web donde podrás encontrar información detallada de pokemón,
-             de acuerdo a su tipo aquí se incluye características sobre altura, peso, caramelos 
-             y demás. </p>
-             <p>Más sobre Pokemón:
-               <br>
-               <img src="images/pokeinfo.jpeg">
-             </p>
-             <p>Más sobre Pokemón Go:
-               <br>
-               <img src="images/pokegoinfo.jpeg">
-             </p>
-      </div>
-      <div class="contenedor2">
-        <h2>Tipos de Pokemón</h2>
-        <div class="botones">
-        <input type="button" class="steelbutton" id="Steel" />
-        <input type="button" class="waterbutton" id="Water" />
-        <input type="button" class="bugbutton" id="Bug" />
-        <input type="button" class="dragonbutton" id="Dragon" />
-        <input type="button" class="electricbutton" id="Electric" />
-        <input type="button" class="ghostbutton" id="Ghost" />
-        <br>
-        <input type="button" class="firebutton" id="Fire" />
-        <input type="button" class="fairybutton" id="Fairy" />
-        <input type="button" class="icebutton" id="Ice" />
-        <input type="button" class="fightbutton" id="Fight" />
-        <input type="button" class="normalbutton" id="Normal" />
-        <input type="button" class="grassbutton" id="Grass" />
-        <br>
-        <input type="button" class="psychicbutton" id="Psychic" />
-        <input type="button" class="rockbutton" id="Rock" />
-        <input type="button" class="darkbutton" id="Dark" />
-        <input type="button" class="groundbutton" id="Ground" />
-        <input type="button" class="poisonbutton" id="Poison" />
-        <input type="button" class="flyingbutton" id="Flying" />
+        <div class="publish-image">
+          <p>Más sobre Pokemón Go:</p>
+          <img src="./assets/images/pokegoinfo.jpeg">
         </div>
       </div>
-    </main>
+    </div>
+    <div class="container-buttons">
+      <h2>Tipos de Pokemón</h2>
+      <div class="buttons">
+        <button type="button" class="steelbutton btn-poke" id="Steel">
+        <button type="button" class="waterbutton btn-poke" id="Water">
+        <button type="button" class="bugbutton btn-poke" id="Bug">
+        <button type="button" class="dragonbutton btn-poke" id="Dragon">
+        <button type="button" class="electricbutton btn-poke" id="Electric">
+        <button type="button" class="ghostbutton btn-poke" id="Ghost">
+        <button type="button" class="firebutton btn-poke" id="Fire">
+        <button type="button" class="fairybutton btn-poke" id="Fairy">
+        <button type="button" class="icebutton btn-poke" id="Ice">
+        <button type="button" class="fightbutton btn-poke" id="Fight">
+        <button type="button" class="normalbutton btn-poke" id="Normal">
+        <button type="button" class="grassbutton btn-poke" id="Grass">
+        <button type="button" class="psychicbutton btn-poke" id="Psychic">
+        <button type="button" class="rockbutton btn-poke" id="Rock">
+        <button type="button" class="darkbutton btn-poke" id="Dark">
+        <button type="button" class="groundbutton btn-poke" id="Ground">
+        <button type="button" class="poisonbutton btn-poke" id="Poison">
+        <button type="button" class="flyingbutton btn-poke" id="Flying">
+      </div>
+    </div>
+  </main>
+  <div>
     <div id="root"></div>
-    <script type="module" src="main.js"></script>
-  </body>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+
 </html>
