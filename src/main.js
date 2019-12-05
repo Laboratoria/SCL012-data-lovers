@@ -1,14 +1,8 @@
-/**
- * import POKEMON from './data/pokemon/pokemon.js'
- * import LoL from './data/lol/lol.js'*/
- import POTTER from './data/potter/potter.js';
-import potter from './data/potter/potter.js';
-/*console.log(POTTER);
-/*
- * console.log(POKEMON);
- * console.log(LoL);
- console.log(POTTER)
-*/
+
+import POTTER from './data/potter/potter.js'
+
+console.log(POTTER)
+
 let houseGryffindor = potter.filter(potter => {
     return potter.house === "Gryffindor";
 })
@@ -29,4 +23,3 @@ let houseHufflepuff = potter.filter (potter =>{
 })
 console.log(houseHufflepuff)
 
-/*console.log(Object.values(casas));*/
