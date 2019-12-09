@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 9175614ced3d601483a7f7c4a74939534ed08bb1
 body {
     margin: 0px;
     padding: 0px;
@@ -20,13 +17,9 @@ body {
 h1 {
     text-align: center;
     font-family: HARRYP;
-<<<<<<< HEAD
     font-size: 100px;
-    margin:0px;
-=======
-    font-size: 60px;
-    line-height: 60px;
->>>>>>> 9175614ced3d601483a7f7c4a74939534ed08bb1
+    margin:60px;
+    line-height: 1px;
     color: #BE9E2D;;
 }
 h2 {
@@ -36,22 +29,24 @@ h2 {
     margin-top: 20px;
     color: #3868A3;
     line-height: 100px;
-
 }
 
 .parrafouno {
   position: relative;
   color: #E1F0EC;
-  width: 500px;
+  /* width: 500px;
   height: 200px;
   left: 150px;
-  top: 150px;
+  top: 150px; */
   background: #413B3B;
   opacity: 0.7;
-  font-family: Cormorant;
-  font-style: normal;
-  font-weight: normal;
+  background-attachment: fixed;
+  font-family: art;
   font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 1600px;
+  margin: 20px 30px 20px 30px;
 }
 
 .paginauno {
@@ -63,20 +58,34 @@ h2 {
 }
 
 .botoncomenzar {
-  position: relative;
+
+  /* position: relative;
   bottom: -165px;
   background: rgba(252, 234, 77, 0.71);
   border: 5px solid #BE9E2D;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   /* Comencemos! */
-  position: relative;
+  /* position: relative;
   font-family: Harry P;
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
   line-height: 25px;
   text-align: center;
-  color: #413B3B;
+  color: #413B3B; */
+width: 350px;
+margin-left: 570px;
+background: #FCEA4D;
+border: 5px solid #BE9E2D;
+padding: 10px 30px;
+text-align: center;
+margin-top: 500px;
+color: black;
+font-family: HARRYP;
+font-size: 25px;
+text-decoration: none;
+letter-spacing: 1px;
+line-height: 180px;
 }
 
 .paginados {
@@ -124,7 +133,6 @@ h2 {
     background-size: 160px 170px;
     background-repeat: no-repeat;
     border: none;
-<<<<<<< HEAD
     padding: 150px 100px;
 }
 
@@ -165,8 +173,6 @@ h2 {
     background:url(css/fondo2.jpg);
     background-attachment: fixed;
     background-size: cover;
-}
-=======
     padding: 100px 100px;
 }
->>>>>>> 9175614ced3d601483a7f7c4a74939534ed08bb1
+
