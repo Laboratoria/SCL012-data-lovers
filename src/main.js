@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /**
  * import POKEMON from './data/pokemon/pokemon.js'
  * import LoL from './data/lol/lol.js'*/
@@ -9,6 +10,13 @@ import potter from './data/potter/potter.js';
  * console.log(LoL);
  console.log(POTTER)
 */
+=======
+
+import POTTER from './data/potter/potter.js'
+
+console.log(POTTER)
+
+>>>>>>> 9175614ced3d601483a7f7c4a74939534ed08bb1
 let houseGryffindor = potter.filter(potter => {
     return potter.house === "Gryffindor";
 })
@@ -61,4 +69,7 @@ let houseHufflepuff = potter.filter (potter =>{
 })
 console.log(houseHufflepuff)
 
+<<<<<<< HEAD
 /*console.log(Object.values(casas));*/
+=======
+>>>>>>> 9175614ced3d601483a7f7c4a74939534ed08bb1
