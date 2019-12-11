@@ -1,19 +1,38 @@
-import { type } from "os";
-import potter from "./data/potter/potter";
+export const houseG = (potter) => {
+  let houseGryffindor = potter.filter ( data =>
+    data.house === "Gryffindor");
+    return houseGryffindor;
+  }
 
-/* Manejo de data */
+export const houseR = (potter) => {
+    let houseRavenclaw = potter.filter ( data =>
+      data.house === "Ravenclaw");
+      return houseRavenclaw;
+    }
 
-// esta es una función de ejemplo
+export const houseS = (potter) => {
+    let houseSlytherin = potter.filter ( data =>
+      data.house === "Slytherin");
+      return houseSlytherin;
+    }
+    
+export const houseH = (potter) => {
+    let houseHufflepuff = potter.filter ( data =>
+       data.house === "Hufflepuff");
+       return houseHufflepuff;
+     }
+// let houseRavenclaw = POTTER.filter(elemento => {
+//   return elemento.house === "Ravenclaw";
+// })
+// console.log(houseRavenclaw);
 
-export const houseSlytherin = potter.filter(elemento => elemento.house === "Slytherin");
-console.log (houseSlytherin);
 
-/* export const houseSlytherin= POTTER.filter(type = houseSlytherin => 
-  {if (!type) {
-  return potter.house === "Slytherin";
-}});
-/*
-/*
-POTTER.filter(potter => {
-  return potter.house === "Gryffindor";
-  */
+//   let houseSlytherin = POTTER.filter( elemento => {
+//    return elemento.house === "Slytherin";    
+// })
+// console.log(houseSlytherin);
+
+// let houseHufflepuff = POTTER.filter (elemento => {
+//  return elemento.house === "Hufflepuff";
+// })
+// console.log(houseHufflepuff);
