@@ -28,7 +28,7 @@ h2 {
     text-align: center;
     margin-top: 20px;
     color: #3868A3;
-    line-height: 100px;
+    line-height: 30px;
 }
 
 .parrafouno {
@@ -45,7 +45,7 @@ h2 {
   font-size: 20px;
   text-align: center;
   line-height: 35px;
-  margin-top: 1600px;
+  top: 60px;
   margin: 20px 30px 20px 30px;
 }
 
@@ -79,7 +79,7 @@ background: #FCEA4D;
 border: 5px solid #BE9E2D;
 padding: 10px 30px;
 text-align: center;
-margin-top: 500px;
+top: 500px;
 color: black;
 font-family: HARRYP;
 font-size: 25px;
@@ -176,3 +176,115 @@ line-height: 180px;
     padding: 100px 100px;
 }
 
+.botonSucia {
+position: absolute;
+width: 200px;
+height: 40px;
+left: 400px;
+top: 1550px;
+background: #DFDA47;
+border: 3px dashed #FFF95F;
+font-family: HARRYP;
+font-size: 25px;
+}
+
+.botonPura {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 750px;
+    top: 1550px;
+    background: #DFDA47;
+    border: 3px dashed #FFF95F;
+    font-family: HARRYP;
+    font-size: 25px;
+    }
+
+.boxAscendencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonSquib {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 400px;
+    top: 1700px;
+    background: #DFDA47;
+    border: 3px dashed #FFF95F;
+    font-family: HARRYP;
+    font-size: 25px;
+    }
+
+    .botonMestizo {
+        position: absolute;
+        width: 200px;
+        height: 40px;
+        left: 750px;
+        top: 1700px;
+        background: #DFDA47;
+        border: 3px dashed #FFF95F;
+        font-family: HARRYP;
+        font-size: 25px;
+        }
+
+        .boxAscendencia2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .botonVivo {
+            position: absolute;
+            width: 200px;
+            height: 40px;
+            left: 400px;
+            top: 2150px;
+            background: #DFDA47;
+            border: 3px dashed #FFF95F;
+            font-family: HARRYP;
+            font-size: 25px;
+            }
+
+            .botonMuerto {
+                position: absolute;
+                width: 200px;
+                height: 40px;
+                left: 750px;
+                top: 2150px;
+                background: #DFDA47;
+                border: 3px dashed #FFF95F;
+                font-family: HARRYP;
+                font-size: 25px;
+                }
+
+                .boxEstado
+                {  display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .listaPersonajes {
+                    position: relative;
+                    width: 420px;
+                    height: 400px;
+                    left: 355px;
+                    top: 0px;
+                    background-color: #8C8C8B;
+                    opacity: 0.7;
+
+                }
+
+                .paginaseis {
+                        height: 100vh;
+                        overflow: hidden;
+                        background:url(css/fondo2.jpg);
+                        background-attachment: fixed;
+                        background-size: cover;
+                        padding: 100px 100px;
+                }
