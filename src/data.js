@@ -57,18 +57,3 @@ export const muerto = (potter) => {
     data.alive === false);
     return muertoP;
 }
-// let houseRavenclaw = POTTER.filter(elemento => {
-//   return elemento.house === "Ravenclaw";
-// })
-// console.log(houseRavenclaw);
-
-
-//   let houseSlytherin = POTTER.filter( elemento => {
-//    return elemento.house === "Slytherin";    
-// })
-// console.log(houseSlytherin);
-
-// let houseHufflepuff = POTTER.filter (elemento => {
-//  return elemento.house === "Hufflepuff";
-// })
-// console.log(houseHufflepuff);
