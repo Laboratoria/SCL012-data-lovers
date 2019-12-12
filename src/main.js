@@ -1,6 +1,7 @@
  import {
    getPokemons,
-   ordePokemons
+   ordePokemons,
+   ordeNumPokemons
  } from './data.js';
 
  let pokemonsFilters = [];
@@ -23,7 +24,7 @@
      document.getElementById("root").appendChild(cardPokemon);
    }
  }
-
+ // function for create card pokemons
  const createCard = (pokemon) => {
    const cardPokemon = document.createElement('div');
    cardPokemon.className = 'card-pokemon';
@@ -38,7 +39,7 @@
    cardPokemon.appendChild(numPokemon);
    return cardPokemon;
  }
- //function for none images
+ // function to hide infographics and show type buttons
  const btnTypePokemons = document.getElementById("tipos");
  btnTypePokemons.addEventListener('click', () => {
    const images = document.getElementsByClassName("publish-images");
@@ -52,6 +53,7 @@
    }
  })
 
+ // function to order alphabetically
  const btnOrderAlf = document.getElementById("orderAlf");
  btnOrderAlf.addEventListener('click', () => {
    const listPokemons = ordePokemons();
@@ -63,7 +65,17 @@
    }
  })
 
-
+  // function to order number
+  const btnOrderNum = document.getElementById("orderNum");
+  btnOrderNum.addEventListener('click', () => {
+    const listNumPokemons = ordeNumPokemons();
+    document.getElementById("root").innerHTML = '';
+    for (let i = 0; i < listNumPokemons.length; i += 1) {
+      const pokemonNum = listNumPokemons[i];
+      const card2 = createCard(pokemonNum);
+      document.getElementById("root").appendChild(card2);
+    }
+  })
 
  // function for modal
  const btnModal01 = document.getElementById("modal01");

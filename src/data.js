@@ -25,10 +25,7 @@ export const getPokemons = (type = undefined) => {
   return res;
 };
 
-//export const fetchPokemons = () => {
-  //return fetch('./data/pokemon/pokemon.json');
-//};
-
+// function order Alfabetico
 export const ordePokemons = (type = undefined) => {
     return getPokemons(type).sort((prev, next) => {
       if (prev.name > next.name) {
@@ -39,4 +36,17 @@ export const ordePokemons = (type = undefined) => {
         return 0;
       }
     });
-  }   
+  }  
+
+  // function order numerico
+export const ordeNumPokemons = () => {
+  return getPokemons().sort((prev, next) => {
+    if (prev.num > next.num) {
+      return 1;
+    } else if (prev.num < next.num) {
+      return -1;
+    } else {
+      return 0;
+    }
+  });
+}    
