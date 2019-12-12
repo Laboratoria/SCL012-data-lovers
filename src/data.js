@@ -21,6 +21,42 @@ export const houseH = (potter) => {
        data.house === "Hufflepuff");
        return houseHufflepuff;
      }
+
+export const sucia = (potter) => {
+  let sangreSucia = potter.filter ( data =>
+    data.ancestry === "muggleborn");
+    return sangreSucia;
+}
+
+export const pura = (potter) => {
+  let sangrePura = potter.filter (data =>
+    data.ancestry === "pure-blood");
+    return sangrePura;
+}
+
+export const squib = (potter) => {
+  let squibP = potter.filter (data =>
+    data.ancestry === "squib");
+    return squibP;
+}
+
+export const mestizo = (potter) => {
+  let mestizoP = potter.filter (data=>
+    data.ancestry === "half-blood");
+    return mestizoP;
+}
+
+export const vivo = (potter) => {
+  let vivoP = potter.filter (data=>
+    data.alive === true);
+    return vivoP;
+}
+
+export const muerto = (potter) => {
+  let muertoP = potter.filter (data=>
+    data.alive === false);
+    return muertoP;
+}
 // let houseRavenclaw = POTTER.filter(elemento => {
 //   return elemento.house === "Ravenclaw";
 // })
