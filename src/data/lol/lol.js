@@ -8,13 +8,13 @@ export default {
       id: 'Aatrox',
       key: '266',
       name: 'Aatrox',
-      title: 'the Darkin Blade',
+      title: 'the in Blade',
       img:
         'https://www.masterypoints.com/assets/img/lol/champion_icons/Aatrox.png',
       splash:
         'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aatrox_0.jpg',
       blurb:
-        "Aatrox is a legendary warrior, one of only five that remain of an ancient race known as the Darkin. He wields his massive blade with grace and poise, slicing through legions in a style that is hypnotic to behold. With each foe felled, Aatrox's ...",
+        "Aatrox is a legendary warrior, one of only five that remain of an ancient race known as the in. He wields his massive blade with grace and poise, slicing through legions in a style that is hypnotic to behold. With each foe felled, Aatrox's ...",
       info: {
         attack: 8,
         defense: 4,
@@ -118,7 +118,7 @@ export default {
       splash:
         'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Akali_0.jpg',
       blurb:
-        'There exists an ancient order originating in the Ionian Isles dedicated to the preservation of balance. Order, chaos, light, darkness -- all things must exist in perfect harmony for such is the way of the universe. This order is known as the Kinkou ...',
+        'There exists an ancient order originating in the Ionian Isles dedicated to the preservation of balance. Order, chaos, light, ness -- all things must exist in perfect harmony for such is the way of the universe. This order is known as the Kinkou ...',
       info: {
         attack: 5,
         defense: 3,
@@ -320,7 +320,7 @@ export default {
       id: 'Annie',
       key: '1',
       name: 'Annie',
-      title: 'the Dark Child',
+      title: 'the  Child',
       img:
         'https://www.masterypoints.com/assets/img/lol/champion_icons/Annie.png',
       splash:
@@ -1416,7 +1416,7 @@ export default {
       splash:
         'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Fiddlesticks_0.jpg',
       blurb:
-        'For nearly twenty years, Fiddlesticks has stood alone in the easternmost summoning chamber of the Institute of War. Only the burning emerald light of his unearthly gaze pierces the musty darkness of his dust-covered home. It is here that the Harbinger ...',
+        'For nearly twenty years, Fiddlesticks has stood alone in the easternmost summoning chamber of the Institute of War. Only the burning emerald light of his unearthly gaze pierces the musty ness of his dust-covered home. It is here that the Harbinger ...',
       info: {
         attack: 2,
         defense: 3,
@@ -2769,7 +2769,7 @@ export default {
       splash:
         'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Kennen_0.jpg',
       blurb:
-        'There exists an ancient order originating in the Ionian Isles dedicated to the preservation of balance. Order, chaos, light, darkness -- all things must exist in perfect harmony for such is the way of the universe. This order is known as the Kinkou ...',
+        'There exists an ancient order originating in the Ionian Isles dedicated to the preservation of balance. Order, chaos, light, ness -- all things must exist in perfect harmony for such is the way of the universe. This order is known as the Kinkou ...',
       info: {
         attack: 6,
         defense: 4,
@@ -3029,7 +3029,7 @@ export default {
       splash:
         'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Leblanc_0.jpg',
       blurb:
-        'Every city has its dark side, even one whose reputation is already of a questionable hue. Noxus - though its name is already invoked with a mixture of reverence and revulsion - is no exception to this simple truth. Deep within the winding dungeons ...',
+        'Every city has its  side, even one whose reputation is already of a questionable hue. Noxus - though its name is already invoked with a mixture of reverence and revulsion - is no exception to this simple truth. Deep within the winding dungeons ...',
       info: {
         attack: 1,
         defense: 4,
@@ -3185,7 +3185,7 @@ export default {
       splash:
         'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lissandra_0.jpg',
       blurb:
-        "Lissandra's magic twists the pure power of ice into something dark and terrible. With the force of her black ice, she does more than freeze - she impales and crushes those who oppose her. To the terrified denizens of the north, she is known only as ...",
+        "Lissandra's magic twists the pure power of ice into something  and terrible. With the force of her black ice, she does more than freeze - she impales and crushes those who oppose her. To the terrified denizens of the north, she is known only as ...",
       info: {
         attack: 2,
         defense: 5,
@@ -5311,7 +5311,7 @@ export default {
       id: 'Syndra',
       key: '134',
       name: 'Syndra',
-      title: 'the Dark Sovereign',
+      title: 'the  Sovereign',
       img:
         'https://www.masterypoints.com/assets/img/lol/champion_icons/Syndra.png',
       splash:
@@ -5473,7 +5473,7 @@ export default {
       splash:
         'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Talon_0.jpg',
       blurb:
-        "''The three deadliest blademasters in all of Valoran are bound to the house of Du Couteau: my father, myself, and Talon. Challenge us, if you dare.''<br>-- Katarina Du Couteau<br><br>Talon's earliest memories are the darkness of Noxus' underground ...",
+        "''The three deadliest blademasters in all of Valoran are bound to the house of Du Couteau: my father, myself, and Talon. Challenge us, if you dare.''<br>-- Katarina Du Couteau<br><br>Talon's earliest memories are the ness of Noxus' underground ...",
       info: {
         attack: 9,
         defense: 3,
@@ -6097,7 +6097,7 @@ export default {
       splash:
         'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Vayne_0.jpg',
       blurb:
-        'The world is not always as civilized as people might think. There are still those who would follow the blackest paths of magic and become corrupted by the darker powers that flow through Runeterra. Shauna Vayne knows this fact well.<br><br>As a young ...',
+        'The world is not always as civilized as people might think. There are still those who would follow the blackest paths of magic and become corrupted by the er powers that flow through Runeterra. Shauna Vayne knows this fact well.<br><br>As a young ...',
       info: {
         attack: 10,
         defense: 1,
@@ -6460,7 +6460,7 @@ export default {
       splash:
         'http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Warwick_0.jpg',
       blurb:
-        'Warwick was once a man revered for his ability to track down human specimens for the darkest types of scientific research. When his ambitions exceeded his physical limits, he drank a dangerous elixir to transform himself into an unstoppable manhunter. ...',
+        'Warwick was once a man revered for his ability to track down human specimens for the est types of scientific research. When his ambitions exceeded his physical limits, he drank a dangerous elixir to transform himself into an unstoppable manhunter. ...',
       info: {
         attack: 7,
         defense: 4,

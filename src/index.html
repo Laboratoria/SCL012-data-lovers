@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Data Lovers</title>
+  <title>Pokemonizate</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css" />
@@ -12,15 +12,22 @@
 <body>
   <header class="header-fixed">
     <div>
-      <a href="https://fontmeme.com/fuentes/fuente-pokmon/"><img src="https://fontmeme.com/permalink/191204/1da744aaaf510dc6f7ca3386367e9ddc.png" alt="fuente-pokmon" border="0"></a>
-     <img class= "pokeb" src="./assets/images/Pokebola.png">
+      <a href="https://fontmeme.com/fuentes/fuente-pokmon/">
+        <img src="https://fontmeme.com/permalink/191204/1da744aaaf510dc6f7ca3386367e9ddc.png" alt="fuente-pokmon">
+      <img class="pokeb" src="./assets/images/Pokebola.png"><border="0"></a>
     </div>
-    <nav class="menu">
-      <ul>
-        <li><a id="buscar" href="#">Buscar</a></li>
-        <li><a id="pokedex" href="#">Pokedéx</a></li>
-        <li><a id="tipos" href="#">Tipos de Pokemón</a></li>
-        <li><a id="inicio" href="#">Inicio</a></li>
+    <nav class="barra">
+      <ul class="menu">
+        <li><a id="inicio" href="#inicio">Inicio</a></li>
+        <li><a id="tipos" href="#tipos">Tipos de Pokemón</a></li>
+        <li class="submenu">
+          <a>Pokedex</a>
+          <ul class="submenu-menu">
+          <li value="filtrar" id="orderAlf">Order A-z</line>
+          <li value="order" id= "orderNum">Order 1-151</line>
+          </ul>
+        </li>
+      </ul>
     </nav>
   </header>
   <main>
@@ -30,41 +37,48 @@
         y demás. </p>
       <div class="publish-images">
         <div class="publish-image">
-          <p>Más sobre Pokemón:</p>
-          <img src="./assets/images/pokeinfo.jpeg">
+              <p>Más sobre Pokemón:</p>
+             <img id="publish1" src="./assets/images/pokeinfo.jpeg">
         </div>
+          
         <div class="publish-image">
-          <p>Más sobre Pokemón Go:</p>
-          <img src="./assets/images/pokegoinfo.jpeg">
+            <div id= "modal02" class= "w3-modal02">
+             <p>Más sobre Pokemón Go:</p>
+             <img src="./assets/images/pokegoinfo.jpeg">
+           </div>
         </div>
       </div>
-    </div>
+
     <div class="container-buttons">
       <h2>Tipos de Pokemón</h2>
       <div class="buttons">
-        <button type="button" class="steelbutton btn-poke" id="Steel">
-        <button type="button" class="waterbutton btn-poke" id="Water">
-        <button type="button" class="bugbutton btn-poke" id="Bug">
-        <button type="button" class="dragonbutton btn-poke" id="Dragon">
-        <button type="button" class="electricbutton btn-poke" id="Electric">
-        <button type="button" class="ghostbutton btn-poke" id="Ghost">
-        <button type="button" class="firebutton btn-poke" id="Fire">
-        <button type="button" class="fairybutton btn-poke" id="Fairy">
-        <button type="button" class="icebutton btn-poke" id="Ice">
-        <button type="button" class="fightbutton btn-poke" id="Fight">
-        <button type="button" class="normalbutton btn-poke" id="Normal">
-        <button type="button" class="grassbutton btn-poke" id="Grass">
-        <button type="button" class="psychicbutton btn-poke" id="Psychic">
-        <button type="button" class="rockbutton btn-poke" id="Rock">
-        <button type="button" class="darkbutton btn-poke" id="Dark">
-        <button type="button" class="groundbutton btn-poke" id="Ground">
-        <button type="button" class="poisonbutton btn-poke" id="Poison">
-        <button type="button" class="flyingbutton btn-poke" id="Flying">
+        <button type="button" class="waterbutton btn-poke" id="Water"></button>
+        <button type="button" class="bugbutton btn-poke" id="Bug"></button>
+        <button type="button" class="dragonbutton btn-poke" id="Dragon"></button>
+        <button type="button" class="electricbutton btn-poke" id="Electric"></button>
+        <button type="button" class="ghostbutton btn-poke" id="Ghost"></button>
+        <button type="button" class="firebutton btn-poke" id="Fire"></button>
+        <button type="button" class="icebutton btn-poke" id="Ice"></button>
+        <button type="button" class="fightbutton btn-poke" id="Fighting"></button>
+        <button type="button" class="normalbutton btn-poke" id="Normal"></button>
+        <button type="button" class="grassbutton btn-poke" id="Grass"></button>
+        <button type="button" class="psychicbutton btn-poke" id="Psychic"></button>
+        <button type="button" class="rockbutton btn-poke" id="Rock"></button>
+        <button type="button" class="groundbutton btn-poke" id="Ground"></button>
+        <button type="button" class="poisonbutton btn-poke" id="Poison"></button>
+        <button type="button" class="flyingbutton btn-poke" id="Flying"></button>
       </div>
     </div>
   </main>
   <div>
     <div id="root"></div>
+  </div>
+  <div>
+   <div id="lateral"></div>
+  </div>
+
+  <div id= "modal01" class= "w3-modal01">
+      <img src="./assets/images/pokeinfo.jpeg">
   </div>
   <script type="module" src="main.js"></script>
 </body>
