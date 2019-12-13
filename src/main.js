@@ -49,7 +49,7 @@
        <li class= "descripcion"> Casa: ${houseRavenclaw[i].house}
        <li class= "descripcion"> Linaje: ${houseRavenclaw[i].ancestry}
        <li class= "descripcion"> Varita: ${houseRavenclaw[i].wand.wood} ${houseRavenclaw[i].wand.core} ${houseRavenclaw[i].wand.length}
-       <li class= "description"> Cumpleaños: ${houseRavenclaw[i].dateOfBirth}
+       <li class= "descripcion"> Cumpleaños: ${houseRavenclaw[i].dateOfBirth}
           </div>`
         console.log(houseRavenclaw)
     }
@@ -151,7 +151,7 @@ document.getElementById("mestizo").addEventListener("click", ()=>{
     <li class= "descripcion"> Casa: ${mestizo[i].house}
     <li class= "descripcion"> Linaje: ${mestizo[i].ancestry}
     <li class= "descripcion"> Varita: ${mestizo[i].wand.wood} ${mestizo[i].wand.core} ${mestizo[i].wand.length}
-    <li class= "description"> Cumpleaños: ${mestizo[i].dateOfBirth}
+    <li class= "descripcion"> Cumpleaños: ${mestizo[i].dateOfBirth}
           </div>`
     console.log(mestizo)
   }
