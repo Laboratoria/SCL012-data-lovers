@@ -161,6 +161,7 @@ order:3px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 } 
 
 .paginatres {
@@ -169,6 +170,7 @@ order:3px;
     background:url(css/fondo2.jpg);
     background-attachment: fixed;
     background-size: cover;
+    
 }
 
 .botonPersonaje {
@@ -183,7 +185,7 @@ letter-spacing: 1px;
 text-decoration: none;
 opacity: 0.7;
 display: flex;
-    justify-content: flex-end;
+justify-content: center;
    
 }
 
@@ -274,7 +276,8 @@ font-size: 25px;
                     display: flex;
                     justify-content: space-around;
                     flex-flow: column;
-                    align-items: flex-start;
+                    align-items: center;
+                    text-align: center;
                     }
 
 
@@ -291,11 +294,21 @@ font-size: 25px;
                 .imagen {
                     width: 100px;
                     height: 110px;
-
                 }
                 .links {
                     display: flex;
                     flex-direction: row;
                     justify-content: center;
                     align-items: center;
+                }
+
+                .home {
+                    width: 30px;
+                    height: 30px;
+                    background: url(css/home.png);
+                    background-size: 40px 40px;
+                    background-repeat: no-repeat;
+                    border: none;
+                    padding: 20px 20px;
+                    margin-left: 650px;
                 }

@@ -1,3 +1,4 @@
+
 export const houseG = (potter) => {
   let houseGryffindor = potter.filter ( data =>
     data.house === "Gryffindor");
