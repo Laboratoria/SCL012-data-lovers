@@ -21,6 +21,7 @@
      const cardPokemon = createCard(pokemon);
      document.getElementById("root").appendChild(cardPokemon);
    }
+   listenerPokemon();
  }
 
  // function for create card pokemons filter
@@ -39,23 +40,21 @@
    return cardPokemon;
  }
  let detailPoke = [];
-
- const pokeAlone = document.getElementsByClassName('card-pokemon');
- for (let i = 0; i < pokeAlone.length; i += 1) {
-   const alone = pokeAlone[i];
-   alone.addEventListener('click', () => {
-     detailPoke = getPokemons(alone);
-     renderPok();
-   })
-  }
- const renderPok = () => {
-  document.getElementById("lateral").innerHTML = '';
-  for (let i = 0; i < detailPoke.length; i += 1) {
-    const cardPok = detailPoke[i];
-    const cardPoke = cardSide(cardPok);
-    document.getElementById("lateral").appendChild(cardPoke);
-  }
-}
+ const listenerPokemon = () => {
+   const pokeAlone = document.getElementsByClassName('card-pokemon');
+   for (let i = 0; i < pokeAlone.length; i += 1) {
+     const alone = pokeAlone[i];
+     alone.addEventListener('click', () => {
+       renderPok(pokemonsFilters[i]);
+     })
+   }
+   const renderPok = (pokemon) => {
+     document.getElementById("lateral").innerHTML = '';
+       const cardPoke = cardSide(pokemon);
+       document.getElementById("lateral").appendChild(cardPoke);
+     
+   }
+ }
 
  const cardSide = (pokemon) => {
    const cardRes = document.createElement("div");
@@ -65,22 +64,25 @@
    const numPok = document.createElement("num");
    const typePok = document.createElement("type");
    const heightPok = document.createElement("heigth");
-   const weightPok = document.createElement ("weigth");
+   const weightPok = document.createElement("weigth");
+  const weakPok= document.createElement("weaknesses");
    imagePok.src = pokemon.img;
    namePok.innerHTML = pokemon.name;
    numPok.innerHTML = pokemon.num;
    typePok.innerHTML = pokemon.type;
-   heightPok.innerHTML = pokemon.heigth;
-   weightPok.innerHTML = pokemon.weigth;
+   heightPok.innerHTML = pokemon.height;
+   weightPok.innerHTML = pokemon.weight;
+   weakPok.innerHTML = pokemon.weaknesses;
    cardRes.appendChild(imagePok);
    cardRes.appendChild(namePok);
    cardRes.appendChild(numPok);
    cardRes.appendChild(typePok);
-   cardRes.appendChild(heightPo);
+   cardRes.appendChild(heightPok);
    cardRes.appendChild(weightPok);
+   cardRes.appendChild(weakPok);
    return cardRes;
  }
- 
+
 
  // function to hide infographics and show type buttons
  const btnTypePokemons = document.getElementById("tipos");
@@ -91,7 +93,7 @@
      resImages.style.display = "none";
      const btnPokes = document.getElementsByClassName("btn-pokes");
      for (let j = 0; j < btnPokes.length; j += 1) {
-      btnPokes[j].style.display = "block";
+       btnPokes[j].style.display = "block";
      }
    }
  })
@@ -108,17 +110,17 @@
    }
  })
 
-  // function to order numberical
-  const btnOrderNum = document.getElementById("orderNum");
-  btnOrderNum.addEventListener('click', () => {
-    const listNumPokemons = ordeNumPokemons();
-    document.getElementById("root").innerHTML = '';
-    for (let i = 0; i < listNumPokemons.length; i += 1) {
-      const pokemonNum = listNumPokemons[i];
-      const card2 = createCard(pokemonNum);
-      document.getElementById("root").appendChild(card2);
-    }
-  })
+ // function to order numberical
+ const btnOrderNum = document.getElementById("orderNum");
+ btnOrderNum.addEventListener('click', () => {
+   const listNumPokemons = ordeNumPokemons();
+   document.getElementById("root").innerHTML = '';
+   for (let i = 0; i < listNumPokemons.length; i += 1) {
+     const pokemonNum = listNumPokemons[i];
+     const card2 = createCard(pokemonNum);
+     document.getElementById("root").appendChild(card2);
+   }
+ })
 
  // function for modal01
  const btnModal01 = document.getElementById("modal01");
@@ -145,5 +147,5 @@
  // function for delete content
  const btnInicio = document.getElementById("inicio");
  btnInicio.addEventListener("click", () => {
-  document.getElementById("root").innerHTML = '';
+   document.getElementById("root").innerHTML = '';
  })
