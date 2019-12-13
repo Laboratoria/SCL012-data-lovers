@@ -1,0 +1,314 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: HARRYP;
+    src: url(css/HARRYP__.TTF);
+}
+
+@font-face {
+    font-family: art;
+    src: url(css/hola.otf);
+}
+
+h1 {
+    text-align: center;
+    font-family: HARRYP;
+    font-size: 100px;
+    margin:60px;
+    line-height: 1px;
+    color: #BE9E2D;;
+}
+h2 {
+    font-family: HARRYP;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: #3868A3;
+    line-height: 30px;
+}
+
+.parrafouno {
+  position: relative;
+  color: #E1F0EC;
+  background: #413B3B;
+  opacity: 0.7;
+  background-attachment: fixed;
+  font-family: art;
+  font-size: 20px;
+  text-align: center;
+  line-height: 35px;
+  top: 60px;
+  margin: 40px;
+}
+
+.paginauno {
+    height: 100vh;
+    overflow: hidden;
+    background:url(css/fondo1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.botonesChoose {
+width: 150px;
+height: 33px;
+background: #FCEA4D;
+background-size: 10px 20px;
+border: 5px solid #BE9E2D;
+padding: 0px;
+text-align: center;
+color: black;
+font-family: HARRYP;
+font-size: 25px;
+letter-spacing: 1px;
+line-height: 35px;
+text-decoration: none;
+justify-content: flex-end;
+top: 100px;
+order:3px;
+}
+
+
+
+.text {
+    text-align: center;
+    font-family: art;
+    font-size: 20px;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-feature-settings: 'cpsp';
+    font-weight: bolder;
+    color: #000000;
+    order: 1;
+    }
+
+
+.icon {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginados {
+    height: 100vh;
+    overflow: hidden;
+    background:url(css/fondo2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.slytherin {
+    width: 40px;
+    height: 40px;
+    background: url(css/slytherin.png);
+    background-size: 150px 160px;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 80px 90px;
+}
+
+.gryffindor {
+        width: 40px;
+        height: 40px;
+        background: url(css/gryffindor.png);
+        background-size: 150px 160px;
+        background-repeat: no-repeat;
+        border: none;
+        padding: 80px 80px;
+}
+
+.hufflepuff {
+    width: 40px;
+    height: 40px;
+    background: url(css/hufflepuff.png);
+    background-size: 150px 160px;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 80px 80px;
+}
+
+.ravenclaw {
+    width: 40px;
+    height: 40px;
+    background: url(css/ravenclaw.png);
+    background-size: 150px 160px;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 80px 80px;
+}
+
+.casas1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.casas2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+} 
+
+.paginatres {
+    height: 100vh;
+    overflow: hidden;
+    background:url(css/fondo2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.botonPersonaje {
+background: #FCEA4D;
+background-size: 10px 20px;
+border: solid #BE9E2D;
+text-align: center;
+color: black;
+font-family: HARRYP;
+font-size: 25px;
+letter-spacing: 1px;
+text-decoration: none;
+opacity: 0.7;
+display: flex;
+justify-content: center;
+   
+}
+
+.paginacuatro {
+    height: 3500px;
+    overflow: hidden;
+    background:url(css/fondo2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.botonSucia {
+position: absolute;
+width: 200px;
+height: 40px;
+left: 400px;
+top: 1550px;
+background: #DFDA47;
+border: 3px dashed #FFF95F;
+font-family: HARRYP;
+font-size: 25px;
+}
+
+.botonPura {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 750px;
+    top: 1550px;
+    background: #DFDA47;
+    border: 3px dashed #FFF95F;
+    font-family: HARRYP;
+    font-size: 25px;
+    }
+
+.boxAscendencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonSquib {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 400px;
+    top: 1700px;
+    background: #DFDA47;
+    border: 3px dashed #FFF95F;
+    font-family: HARRYP;
+    font-size: 25px;
+    }
+
+    .botonMestizo {
+        position: absolute;
+        width: 200px;
+        height: 40px;
+        left: 750px;
+        top: 1700px;
+        background: #DFDA47;
+        border: 3px dashed #FFF95F;
+        font-family: HARRYP;
+        font-size: 25px;
+        }
+
+        .boxAscendencia2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+                
+                .listaPersonajes {
+                    position: relative;
+                    width: 420px;
+                    height: 400px;
+                    left: 355px;
+
+                }
+
+               
+                .info{
+                    width: 200px;
+                    height: 300px;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-flow: column;
+                    align-items: center;
+                    text-align: center;
+                    }
+
+
+                .descripcion {
+                    font-family: art;
+                    color: #FFF95F;
+                }
+
+                .nombre {
+                    font-family: HarryP;
+                    color: #FFF95F;
+                }
+
+                .imagen {
+                    width: 100px;
+                    height: 110px;
+                }
+                .links {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .home {
+                    width: 30px;
+                    height: 30px;
+                    background: url(css/home.png);
+                    background-size: 40px 40px;
+                    background-repeat: no-repeat;
+                    border: none;
+                    padding: 20px 20px;
+                    margin-left: 650px;
+                }
