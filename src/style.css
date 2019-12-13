@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'pokemon';
+    src: url('./assets/fonts/Pokemon\ Solid.ttf');
+}
+body {
+  background-image: url('./assets/images/pokemon_go_hd-t2.jpg');
+  background-repeat: no-repeat fixed center; 
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+header {
+  width: 640px;
+  height: 200px;
+  float: right;
+}
+
+main {
+  width: 900px;
+  height: 580px;
+  float: right;
+}
+
+article {
+  float: left;
+  width: 300px;
+  height: 500px;
+} 
+
+.header-fixed {  
+  width: 100%;
+  margin: auto;
+  border: 0;
+}
+
+.pokeb {
+    width: 10%;
+    float: left;
+}
+p {
+   color: white;
+   margin: left;
+   font-size:  28px;
+   background-color: #dddddda8;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size:  35px;
+  margin: left;
+  background-color: #dddddda8;
+}
+.barra{
+    position: sticky;
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: white;
+   top: 0;
+}
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background: grey;
+}
+
+.btn-poke {
+  height: 130px;
+  width: 130px;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+
+.steelbutton {
+  background-image: url(./assets/images/Simbolos/Acero.jpg);
+  
+}
+
+.waterbutton {
+  background-image: url(./assets/images/Simbolos/Agua.jpg);
+}
+
+.bugbutton {
+  background-image: url(./assets/images/Simbolos/Bicho.jpg);
+}
+
+.dragonbutton {
+  background-image: url(./assets/images/Simbolos/Dragon.jpg);
+}
+
+.electricbutton {
+  background-image: url(./assets/images/Simbolos/Electrico.jpg);
+}
+
+.ghostbutton {
+  background-image: url(./assets/images/Simbolos/Fantasma.jpg);
+}
+
+.firebutton {
+  background-image: url(./assets/images/Simbolos/Fuego.jpg);
+}
+
+.fairybutton {
+  background-image: url(./assets/images/Simbolos/Hada.jpg);
+}
+
+.icebutton {
+  background-image: url(./assets/images/Simbolos/Hielo.jpg);
+}
+
+.fightbutton {
+  background-image: url(./assets/images/Simbolos/Lucha.jpg);
+}
+
+.normalbutton {
+  background-image: url(./assets/images/Simbolos/Normal.jpg);
+}
+
+.grassbutton {
+  background-image: url(./assets/images/Simbolos/Planta.jpg);
+}
+
+.psychicbutton {
+  background-image: url(./assets/images/Simbolos/Psiquico.jpg);
+}
+
+.rockbutton {
+  background-image: url(./assets/images/Simbolos/Roca.jpg);
+}
+
+.darkbutton {
+  background-image: url(./assets/images/Simbolos/Siniestro.jpg);
+}
+
+.groundbutton {
+  background-image: url(./assets/images/Simbolos/Tierra.jpg);
+}
+
+.poisonbutton {
+  background-image: url(./assets/images/Simbolos/Veneno.jpg);
+}
+
+.flyingbutton {
+  background-image: url(./assets/images/Simbolos/Volador.jpg);
+}
+
+
+.publish-images {
+    display: flex;
+}
+
+.publish-image {
+    width: 30%;
+    padding-right: 30px; 
+    cursor: zoom-in;
+}
+
+.publish-image img {
+    width: 50%;
+}
+
+#root {
+ display: flex;
+ flex-wrap: wrap;
+}
+.card-pokemon {
+    border: 1px solid green;
+    width: 200px;
+    height: 230px;
+    flex: 1 1 auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    background-color:black;
+    color: white;
+}
+
+.card-result {
+  border: 1px solid green;
+  width: 300px;
+  height: 500px;
+  flex: 1 1 auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  background-color: yellow;
+  color: rgb(35, 14, 112);
+}
+.submenu:hover > .submenu-menu {
+  display: block;
+}
+
+.submenu-menu {
+  position: absolute;
+  top: 45px;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: none;
+}
+
+.submenu-menu li {
+  display: block;
+  width: 100%;
+  padding: 5px;
+}
+
+.submenu-menu li:hover {
+  background: #ddd;
+  cursor: pointer;
+}
+
+#lateral {
+  display: flex;
+  width: 300px;
+  height: 500px;
+  position: left;
+}
+.w3-modal01 {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: fixed;
+  background: #dddddda8;
+  display: none;
+  margin: -8px;
+  top: 0;
+}
+
+.w3-modal01 > img {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 100px;
+}
+
+.w3-modal02 {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: fixed;
+  background: #dddddda8;
+  display: none;
+  margin: -8px;
+  top: 0;
+}
+
+.w3-modal02 > img {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 50px;
+}

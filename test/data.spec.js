@@ -1,13 +1,27 @@
 // importamos la función `example`
-import { example } from "../src/data";
+import { getPokemons } from "../src/data";
 
-describe('example', () => {
+describe('getPokemons', () => {
 
   it('debería ser una función', () => {
-    expect(typeof example).toBe('function');
-  });
+    expect(typeof getPokemons).toBe('function');
+  })
+});
+// importamos la función `example`
+import { ordePokemons } from "../src/data";
 
-  describe('example', () => {
-    // escribe aquí tu test
-  });
+describe('ordePokemons', () => {
+
+  it('debería ser una función', () => {
+    expect(typeof ordePokemons).toBe('function');
+  })
+});
+// importamos la función `example`
+import { ordeNumPokemons } from "../src/data";
+
+describe('ordeNumPokemons', () => {
+
+  it('debería ser una función', () => {
+    expect(typeof ordeNumPokemons).toBe('function');
+  })
 });
