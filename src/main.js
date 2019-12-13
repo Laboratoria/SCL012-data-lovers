@@ -49,7 +49,7 @@
        <li class= "descripcion"> Casa: ${houseRavenclaw[i].house}
        <li class= "descripcion"> Linaje: ${houseRavenclaw[i].ancestry}
        <li class= "descripcion"> Varita: ${houseRavenclaw[i].wand.wood} ${houseRavenclaw[i].wand.core} ${houseRavenclaw[i].wand.length}
-       <li class= "description"> Cumpleaños: ${houseRavenclaw[i].dateOfBirth}
+       <li class= "descripcion"> Cumpleaños: ${houseRavenclaw[i].dateOfBirth}
           </div>`
         console.log(houseRavenclaw)
     }
@@ -65,7 +65,7 @@
       <li class= "descripcion"> Casa: ${houseSlytherin[i].house}
       <li class= "descripcion"> Linaje: ${houseSlytherin[i].ancestry}
       <li class= "descripcion"> Varita: ${houseSlytherin[i].wand.wood} ${houseSlytherin[i].wand.core} ${houseSlytherin[i].wand.length}
-      <li class= "description"> Cumpleaños: ${houseSlytherin[i].dateOfBirth}
+      <li class= "descripcion"> Cumpleaños: ${houseSlytherin[i].dateOfBirth}
           </div>`
         console.log(houseSlytherin)
     }
@@ -81,7 +81,7 @@
       <li class= "descripcion"> Casa: ${houseHufflepuff[i].house}
       <li class= "descripcion"> Linaje: ${houseHufflepuff[i].ancestry}
       <li class= "descripcion"> Varita: ${houseHufflepuff[i].wand.wood} ${houseHufflepuff[i].wand.core} ${houseHufflepuff[i].wand.length}
-      <li class= "description"> Cumpleaños: ${houseHufflepuff[i].dateOfBirth}
+      <li class= "descripcion"> Cumpleaños: ${houseHufflepuff[i].dateOfBirth}
           </div>`
         console.log(houseHufflepuff)
     }
@@ -99,7 +99,7 @@ document.getElementById("sangreSucia").addEventListener("click", ()=>{
     <li class= "descripcion"> Casa: ${muggleborn[i].house}
     <li class= "descripcion"> Linaje: ${muggleborn[i].ancestry}
     <li class= "descripcion"> Varita: ${muggleborn[i].wand.wood} ${muggleborn[i].wand.core} ${muggleborn[i].wand.length}
-    <li class= "description"> Cumpleaños: ${muggleborn[i].dateOfBirth}
+    <li class= "descripcion"> Cumpleaños: ${muggleborn[i].dateOfBirth}
           </div>`
     console.log(muggleborn)
   }
@@ -115,7 +115,7 @@ document.getElementById("sangrePura").addEventListener("click", ()=>{
     <li class= "descripcion"> Casa: ${pureblood[i].house}
     <li class= "descripcion"> Linaje: ${pureblood[i].ancestry}
     <li class= "descripcion"> Varita: ${pureblood[i].wand.wood} ${pureblood[i].wand.core} ${pureblood[i].wand.length}
-    <li class= "description"> Cumpleaños: ${pureblood[i].dateOfBirth}
+    <li class= "descripcion"> Cumpleaños: ${pureblood[i].dateOfBirth}
           </div>`
     console.log(pureblood)
   }
@@ -151,7 +151,7 @@ document.getElementById("mestizo").addEventListener("click", ()=>{
     <li class= "descripcion"> Casa: ${mestizo[i].house}
     <li class= "descripcion"> Linaje: ${mestizo[i].ancestry}
     <li class= "descripcion"> Varita: ${mestizo[i].wand.wood} ${mestizo[i].wand.core} ${mestizo[i].wand.length}
-    <li class= "description"> Cumpleaños: ${mestizo[i].dateOfBirth}
+    <li class= "descripcion"> Cumpleaños: ${mestizo[i].dateOfBirth}
           </div>`
     console.log(mestizo)
   }
