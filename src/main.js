@@ -1,6 +1,6 @@
 
  import potter from './data/potter/potter.js'
-  //filtrar personajes por casas
+  //pagina dos
   import {houseG} from './data.js';
   const seleccionadoG = houseG(potter)
   console.log(seleccionadoG)
@@ -19,11 +19,6 @@
   const seleccionadoSquib = squib(potter)
   import {mestizo} from './data.js';
   const seleccionadoMestizo = mestizo(potter)
-  // pagina cuatro
-  import {vivo} from './data.js';
-  const seleccionadoVivo = vivo(potter)
-  import {muerto} from './data.js';
-  const seleccionadoMuerto = muerto(potter)
 
 
 
@@ -38,7 +33,7 @@
            <li class= "descripcion"> Casa: ${houseGryffindor[i].house}
            <li class= "descripcion"> Linaje: ${houseGryffindor[i].ancestry}
            <li class= "descripcion"> Varita: ${houseGryffindor[i].wand.wood} ${houseGryffindor[i].wand.core} ${houseGryffindor[i].wand.length}
-           <li class= "description"> Cumpleaños: ${houseGryffindor[i].dateOfBirth}
+           <li class= "descripcion"> Cumpleaños: ${houseGryffindor[i].dateOfBirth}
            </div>`
           console.log(houseGryffindor)
       }
@@ -131,13 +126,15 @@ document.getElementById("squib").addEventListener("click",()=>{
 let squib= seleccionadoSquib;
 for (let i=0; i<squib.length; i++){
   personajes.innerHTML += `<div class = "info">
+  
   <img class="imagen" src= ${squib[i].image}>
   <li class= "nombre" >Nombre: ${squib[i].name}
   <li class= "descripcion" >Especie: ${squib[i].species}
   <li class= "descripcion"> Casa: ${squib[i].house}
   <li class= "descripcion"> Linaje: ${squib[i].ancestry}
   <li class= "descripcion"> Varita: ${squib[i].wand.wood} ${squib[i].wand.core} ${squib[i].wand.length}
-  <li class= "description"> Cumpleaños: ${squib[i].dateOfBirth}
+  <li class= "descripcion"> Cumpleaños: ${squib[i].dateOfBirth}
+
           </div>`
   console.log(squib)
 }
@@ -160,48 +157,3 @@ document.getElementById("mestizo").addEventListener("click", ()=>{
   }
 })
 
-// por estado
-
-document.getElementById("vivo").addEventListener("click",()=>{
-  let vivo = seleccionadoVivo;
-  for (let i=0; i<vivo.length; i++){
-    personajes.innerHTML += `<div class = "info">
-          ${vivo[i].name}
-          </div>`
-    console.log(vivo)
-  }
-}
-)
-
-document.getElementById("muerto").addEventListener("click",()=>{
-  let muerto = seleccionadoMuerto;
-  for (let i=0; i<vivo.length; i++){
-    //  personajes.innerHTML += `<div class = "info">
-    //        ${muerto[i].name}
-    //        </div>`
-    console.log(muerto)
-  }
-})
-
-/*Div donde se verá la lista de personajes*/
-const listaPjs = document.getElementById("cartasPjs");
-/* Código para presentar la lista de personajes*/
-function creaLista (data) {
-  const listaPersonajes = document.createElement("button");
-  listaPersonajes.setAttribute("class", "estiloLista");
-  // console.log("listaPersonajes")
-  const imagenPj= document.createElement("img");
-  imagenPj.setAttribute("class", "imgPJ")
-  const imagenLista = data.image;
-  imagenPj.setAttribute("src", imagenLista);
-  listaPersonajes.appendChild(imagenPj);
-  const nombrePj = document.createElement("p");
-  nombrePj.setAttribute("class", "nombreLista");
-  const nombrePersonaje = document.createTextNode(data.name)
-  nombrePj.appendChild(nombrePersonaje);
-  listaPersonajes.appendChild(nombrePj);
-  listaPjs.appendChild(listaPersonajes);
-}
-for (let i=0; i <potter.length; i++){
-  creaLista(potter[i]);
-}
