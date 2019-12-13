@@ -2,15 +2,56 @@
     font-family: 'pokemon';
     src: url('./assets/fonts/Pokemon\ Solid.ttf');
 }
+body {
+  background-image: url('./assets/images/pokemon_go_hd-t2.jpg');
+  background-repeat: no-repeat fixed center; 
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+}
+
+header {
+  width: 640px;
+  height: 200px;
+  float: right;
+}
+
+main {
+  width: 900px;
+  height: 580px;
+  float: right;
+}
+
+article {
+  float: left;
+  width: 300px;
+  height: 500px;
+  border: 1px solid green;
+} 
 
 .header-fixed {  
   width: 100%;
   margin: auto;
   border: 0;
 }
+
 .pokeb {
     width: 10%;
     float: left;
+}
+p {
+   color: white;
+   margin: left;
+   font-size:  28px;
+   background-color: #dddddda8;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size:  35px;
+  margin: left;
+  background-color: #dddddda8;
 }
 .barra{
     position: sticky;
@@ -20,7 +61,7 @@ ul {
    margin: 0;
    padding: 0;
    overflow: hidden;
-   background-color: #333;
+   background-color: white;
    top: 0;
 }
 li {
@@ -29,7 +70,7 @@ li {
   
 li a {
     display: block;
-    color: white;
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -133,7 +174,7 @@ header nav ul li a:hover {
 }
 
 .publish-image img {
-    width: 100%
+    width: 50%;
 }
 
 #root {
@@ -150,8 +191,23 @@ header nav ul li a:hover {
     align-items: center;
     flex-direction: column;
     margin: 5px;
+    background-color:black;
+    color: white;
 }
 
+.card-result {
+  border: 1px solid green;
+  width: 200px;
+  height: 230px;
+  flex: 1 1 auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+  background-color:black;
+  color: white;
+}
 .submenu:hover > .submenu-menu {
   display: block;
 }
@@ -198,4 +254,21 @@ header nav ul li a:hover {
   width: 70%;
   margin-left: 15%;
   margin-top: 100px;
+}
+
+.w3-modal02 {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  position: fixed;
+  background: #dddddda8;
+  display: none;
+  margin: -8px;
+  top: 0;
+}
+
+.w3-modal02 > img {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 50px;
 }

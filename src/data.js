@@ -25,7 +25,7 @@ export const getPokemons = (type = undefined) => {
   return res;
 };
 
-// function order Alfabetico
+// function order alphabetically
 export const ordePokemons = (type = undefined) => {
     return getPokemons(type).sort((prev, next) => {
       if (prev.name > next.name) {
@@ -38,7 +38,7 @@ export const ordePokemons = (type = undefined) => {
     });
   }  
 
-  // function order numerico
+  // function order numerical
 export const ordeNumPokemons = () => {
   return getPokemons().sort((prev, next) => {
     if (prev.num > next.num) {
