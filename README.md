@@ -97,7 +97,7 @@ diseño, procedimos a estructurar un esquema básico de la idea de página. Este
 de alta fidelidad en Figma como se aprecia en la imagen X. 
 
 ![Imagen del primer esquema de la página]
-(https://raw.githubusercontent.com/DaniAzul/SCL012-data-lovers/tree/master/src/assert/primeraidea.JPG)
+(https://raw.githubusercontent.com/DaniAzul/WizardsUnite/SCL012-data-lovers/tree/master/src/assert/primeraidea.JPG)
 
 ![Imagen del esquema realizado en InVision]
 (https://raw.githubusercontent.com/DaniAzul/SCL012-data-lovers/tree/master/src/assert/mockupInvision.JPG)
