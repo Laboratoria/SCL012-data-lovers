@@ -46,14 +46,3 @@ export const mestizo = (potter) => {
     return mestizoP;
 }
 
-export const vivo = (potter) => {
-  let vivoP = potter.filter (data=>
-    data.alive === true);
-    return vivoP;
-}
-
-export const muerto = (potter) => {
-  let muertoP = potter.filter (data=>
-    data.alive === false);
-    return muertoP;
-}
