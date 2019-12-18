@@ -5,7 +5,7 @@ export function filtrarPorTipoPokemon(TipoSeleccionado) {
   return TipoPokemonFiltrado;
 }
 export function filtrarPorDebilidades(eleccionDecaracteristica) {
-  const resultado = [];
+  const resultado = [];//array vacio para que me integre el resultado
   if (eleccionDecaracteristica=="Más débiles"){
     for(let i = 0; i <POKEMON.length; i++){
       if (POKEMON[i].weaknesses.length >= 5){
