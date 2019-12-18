@@ -10,7 +10,7 @@ btnBuscar.addEventListener("click", function() {
     for (let i= 0; i < POKEMON.length; i++) {
         //le indico que de la cadena me compare el name y si es igual al introducido me de true
         if (POKEMON[i].name === namePokemon) {
-            nameSearched.push(POKEMON[i]);
+            nameSearched.push(POKEMON[i].next_evolution);
         }  
         //imprimo el pokemon en el div
         //document.getElementById("root").innerHTML = nameSearched; 
@@ -29,7 +29,7 @@ btnBuscar.addEventListener("click", function() {
                         ${nameSearched.type}
                     </td> 
                     <td>
-                        ${nameSearched.next_evolution[0].name}
+                        ${nameSearched.next_evolution.name}
                     </td>
                 </tr>`)}
                 </thead>

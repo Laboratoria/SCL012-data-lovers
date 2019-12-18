@@ -1,7 +1,7 @@
 import { filtrarPorTipoPokemon } from './data.js';
 const seleccionTipo = document.getElementById('seleccion'); //llamar a id y guardar en variable: SELECT
 seleccionTipo.addEventListener('change', () => { //capturar evento change (cambiar) y ejecutar funcion
-  const indexSeleccionado = seleccionTipo.selectedIndex; //capturar evento change (cambiar) y ejecutar funcion
+  const indexSeleccionado = seleccionTipo.selectedIndex; //sacar el indice o posicion seleccionado en el select
   const valorIndexSeleccionado = seleccionTipo.children[indexSeleccionado].innerHTML.trim();//capturar valor del indice
   const resultado = filtrarPorTipoPokemon(valorIndexSeleccionado);
   limpiar();
@@ -28,13 +28,13 @@ function tabla(resultado){
             </table>
         </div>
     `
-    let divTabla = document.createElement('div');
-    divTabla.innerHTML = tabla;
-    document.getElementById("hijoDos").appendChild(divTabla);
+    let divTabla = document.createElement('div');//crea el elemento div
+    divTabla.innerHTML = tabla;//pinta tabla html en el div  
+    document.getElementById("hijoDos").appendChild(divTabla);//lleva el div al html
 }
 function limpiar(){
-    let pokediv = document.getElementById("poke");
-    if (pokediv != null){
-      pokediv.remove(pokediv);
+    let pokediv = document.getElementById("poke");//se captura el div
+    if (pokediv != null){// si el div no es nulo, es decir, esta definido
+      pokediv.remove(pokediv);//borra al div
     }
 }
