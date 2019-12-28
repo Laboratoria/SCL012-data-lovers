@@ -1,4 +1,5 @@
 import { filtrarPorTipoPokemon } from './data.js';
+
 const seleccionTipo = document.getElementById('seleccion'); //llamar a id y guardar en variable: SELECT
 seleccionTipo.addEventListener('change', () => { //capturar evento change (cambiar) y ejecutar funcion
   const indexSeleccionado = seleccionTipo.selectedIndex; //sacar el indice o posicion seleccionado en el select

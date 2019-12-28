@@ -23,24 +23,25 @@ export function filtrarPorDebilidades(eleccionDecaracteristica) {
   return resultado;
 }
 
-export function buscarPokemonPorNombre(eleccionDecaracteristica) {
-let nameSearched = []; // se crea un arreglo vacio 
+export function buscarPokemonPorNombre(nombreAbuscar) {
+let nombreBuscado = []; // se crea un arreglo vacio 
     for (let i= 0; i < POKEMON.length; i++) {
         // recorrer para que vaya comparando el name y si es igual al introducido retorne true
-        if (POKEMON[i].name === namePokemon) {
-            nameSearched.push(POKEMON[i]); // al arreglo vacio se le agrega el arreglo del pokemon
+        if (POKEMON[i].name === nombreAbuscar) {
+          nombreBuscado.push(POKEMON[i]); // al arreglo vacio se le agrega el arreglo del pokemon
         }  
     }
+    return buscarEvoluciones(nombreBuscado);
+  }
 
-    nameSearched
-
-
-
-
-
-export function buscarEvoluciones(TipoSeleccionado) {
-  const TipoPokemonFiltrado = POKEMON.filter((pokemon) => (pokemon.type.includes(TipoSeleccionado)));
-  return TipoPokemonFiltrado;
+function buscarEvoluciones(nombreBuscado) { // funcion que buscara solo las evoluciones
+  let arregloEvoluciones = []; // arreglo vacio que almacenara las evoluciones
+  for (let i= 0; i < nombreBuscado.length; i++) { // primer for, que recorre los datos del pokemon
+    for(let j = 0; j < nombreBuscado[i].next_evolution.length; j++ ){ // segundo for que recorrera el arreglo de evoluciones
+      arregloEvoluciones.push(nombreBuscado[i].next_evolution[j]); // se guarda en el arreglo vacio la evolucion
+    }
+    
+  }
+  return arregloEvoluciones; // se retorna el arreglo de evoluciones para que lo pueda trabajar en el dom
 }
-
 
