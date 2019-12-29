@@ -1,10 +1,11 @@
 import {buscarPokemonPorNombre} from './data.js';
 
-const btnBuscar = document.getElementById("botonBuscarPokemon");// llamar al botton buscar
-btnBuscar.addEventListener("click", function() { // escuchar el evento para indicarle que ejecute la funcion
-    const namePokemon = document.getElementById("nombreAbuscar").value; // rescata el nombre del pokemon a buscar
-    
+const btnBuscar = document.getElementById("seleccion");// llamar al id del select
+btnBuscar.addEventListener("change", function() { // escuchar el evento para indicarle que ejecute la funcion
+    const namePokemon = document.getElementById("seleccion").value; // rescata el nombre del pokemon a buscar
     const evolucionesPokemon = buscarPokemonPorNombre(namePokemon);
+
+    limpiar ();
 
     let divPokeIndividual = ` 
          <div class="buscarTipos" id="poke">
@@ -27,3 +28,10 @@ btnBuscar.addEventListener("click", function() { // escuchar el evento para indi
     divPoke.innerHTML = divPokeIndividual;
     document.getElementById("hijo-recolector").appendChild(divPoke);
 })
+
+function limpiar() { 
+    let pokediv = document.getElementById("poke");
+    if (pokediv != null){
+      pokediv.remove(pokediv);
+    }
+}

@@ -37,10 +37,11 @@ let nombreBuscado = []; // se crea un arreglo vacio
 function buscarEvoluciones(nombreBuscado) { // funcion que buscara solo las evoluciones
   let arregloEvoluciones = []; // arreglo vacio que almacenara las evoluciones
   for (let i= 0; i < nombreBuscado.length; i++) { // primer for, que recorre los datos del pokemon
-    for(let j = 0; j < nombreBuscado[i].next_evolution.length; j++ ){ // segundo for que recorrera el arreglo de evoluciones
+      if (nombreBuscado[i].next_evolution)  {
+        for(let j = 0; j < nombreBuscado[i].next_evolution.length; j++ ){ // segundo for que recorrera el arreglo de evoluciones
       arregloEvoluciones.push(nombreBuscado[i].next_evolution[j]); // se guarda en el arreglo vacio la next evolucion
     }
-
+  }
       if (nombreBuscado[i].prev_evolution)  {
         for(let j = 0; j < nombreBuscado[i].prev_evolution.length; j++ ){ // segundo for que recorrera el arreglo de evoluciones
           arregloEvoluciones.push(nombreBuscado[i].prev_evolution[j]); // se guarda en el arreglo vacio la prev evolucion
