@@ -1,5 +1,5 @@
 
-Definición del producto
+Definición del producto HOLI
 
 Hipótesis:
 Existen muchos jóvenes y adultos jóvenes que les gustaría jugar por primera vez Pokemon Go o retomar la aplicación que alguna vez usaron por corto tiempo y luego, por distintas razones, dejaron de jugar. 
