@@ -8,7 +8,46 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
+      <div class="contenedor"> 
+    <header class="header">
+        <div class = "logo">
+            <img src="logo-maestro.png" alt="" id=maestro-poke>
+        </div>
+        <div class="menu">
+            <nav>
+            <a href="index.html" class="menu-nav"><p id="palabraMenu">Inicio</p></a>
+            <a href="tipos.html" class="menu-nav"><p id="palabraMenu">Tipos de Pokemomes</p></a>
+            <a href="top.html" class="menu-nav"><p id="palabraMenu">Top 10 de Aparicion</p></a>
+            <a href="captura.html" class="menu-nav"><p id="palabraMenu">Captura de Pokemones</p></a>
+            </nav>
+        </div>
+    </header>
+    <section class="section">
+        
+        <div  class="hijo" id="logo-app">
+            <img src="redondo.png" id="logo-maestros">
+        </div>
+        <div class="hijo" id="info-app">
+            <div id="explicacion">
+              <h1>POKEMON GO</h1>
+              <p>El juego lleva la serie de Pokémon a la vida real a través del GPS y la realidad aumentada. 
+                Los jugadores recorren las calles de su ciudad en busca de los pokémon y gimnasios Pokémon en 
+              donde además de entrenar, pueden realizar batallas</p>
+            </div>
+            <button onclick="location.href='https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=en'" id="buttonDescargar" class="button">DESCARGAR POKEMON GO</button>
+        </div>
+        <div class="hijo" id="recolector">
+            <img src="Maestro-Recolector.png" id="logo-maestros">
+            <button onclick="location.href='maestro-recolector.html'" id="buttonRecolector" class="button">MAESTRO RECOLECTOR</button>
+        </div>
+        <div class="hijo" id="guerrero" >
+            <img src="Maestro-Guerrero.png" id="logo-maestros">
+            <button onclick="location.href='maestro-guerrero.html'" id="buttonGuerrero" class="button">MAESTRO GUERRERO</button>
+        </div>
+          
+    </section>
+    <footer></footer>
+  </div>
     <script type="module" src="main.js"></script>
   </body>
 </html>

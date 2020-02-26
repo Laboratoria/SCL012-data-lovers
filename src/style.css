@@ -1,0 +1,449 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("fondo-page.jpg"); 
+}
+.logo{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+   
+}
+.menu-nav{
+    background:  rgb(9, 156, 129);
+    color:white;
+    font-size: 130%;
+    padding: 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+.menu-nav:hover{
+    background: #00918E;
+}
+nav{
+    background:  #28CEB0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width:600px) {
+    nav{
+        background: silver;
+        flex-direction: column;   
+    }
+    .menu-nav{
+    margin: 10px 0;
+    }
+}
+.section{
+   
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: space-around;
+}
+.hijo{
+    width: 500px;
+    height: 400px;
+    margin: 30px;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+.hijopoder{
+    padding-top: 200px;
+    width: 100%;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+.hijotablapoder{
+    padding-top: 200px;
+    width: 500px;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+.tablapoderdespliegue{
+    padding-top: 200px;
+    width: 500px;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+
+
+#logo-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+#descripcion-poder-texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    margin-top: 72px;
+    color:#031A97;
+}
+
+.button{
+    width: 80%;
+    height: 40px;
+    font-size: 100%;
+    background: #FFDD2C;
+    border-radius: 40px;
+    color:#031A97;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button:hover{
+    background: #28CEB0;
+  }  
+#info-app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+#explicacion{
+    padding: 15px;
+    background:white;
+   font-size: 20px;
+   color:#031A97;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#explicacionTipo{
+    padding: 45px;
+   font-size: 20px;
+   color:#031A97;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#seleccionPoderDev{
+    margin-top: -70px;
+    padding: 45px;
+   font-size: 20px;
+   color:#031A97;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#recolector{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+#selectPoder{
+    border:solid back;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#guerrero{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+#logo-maestros{
+    height: 90%;
+    
+}
+@media (max-width:600px) {
+    .section{
+        flex-direction: column;   
+    }
+    .hijo{
+    margin: 10px 0;
+    }
+}
+#button-search-name{
+    background: #FFDD2C;
+    width: 10%;
+    height: 30px;
+}
+#button-search-name:hover{
+    background: #28CEB0;
+  }  
+  #name-entered{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    width: 20%;
+    height: 30px;
+  }
+  .hijo-recolector{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .recolectar{
+      border: 2px solid blue;
+      justify-content: center;
+      align-items: center;
+  }
+ 
+  .seleccion{
+    border: 3px solid #28CEB0;
+    color: white;
+     font-size: 17px;
+     background-color: #28CEB0;
+     width: 170px;
+     height: 35px;
+  }
+  h1{
+      font-style: Bungee;
+      color: #031A97;
+      font-display: center;
+      text-align: center;
+      font-size: 60px;
+  }
+  .tiposPokemon{
+    display: flex;
+   flex-direction: row;
+   flex-direction: column; 
+   flex-wrap: wrap;
+   align-content: space-around;
+  }
+  #hijoDos{
+    margin-left: 577px;
+    /* float: right; */
+    width: 500px;
+    height: 300px;
+    /*margin: 30px;
+    padding: 20px;*/
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center; 
+    margin:0auto;
+    background-color: ghostwhite;
+    overflow-y:scroll; 
+}
+
+#hijoDos{
+    width: 300px;
+    height: 300px;
+    /*margin: 30px;
+    padding: 20px;*/
+    justify-content: center; 
+    margin:0auto;
+    background-color: ghostwhite;
+    overflow-y:scroll; 
+}
+
+
+#tamañoTabla{
+    width:300px;
+}
+@media (max-width:600px) {
+    .tiposPokemon{
+        flex-direction: column;   
+    }
+    .hijoDos{
+    margin: 10px 0;
+    }
+}
+#select{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+}
+.tituloTipos{
+    margin: 20px;
+    padding: 20px;
+}
+.buscadorTipos{
+    margin: 2px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#poke{
+    width:300px;
+    height:300px;
+    margin:0 auto;
+    margin-top:30px;  
+}
+#poder{
+    width: 640px;
+    height: 500px;
+    margin: 0 auto;
+     margin-top: 30px; 
+     margin-left: -70px; 
+    background-color: white;
+    overflow-y: scroll;
+    padding: 30px;
+}
+
+
+
+.sectionGuerrero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    align-items: space-around;
+}
+
+.hijoTres{
+    border: 2px solid purple;
+    width: 500px;
+    height: 400px;
+    margin: 30px;
+    padding: 20px;
+    flex: 1 1 auto;
+}
+
+#maestroGuerrero{
+    margin:0 auto;
+    width: 50%;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+/*Estilos de la galeria*/
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+
+#palabraMenu{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#palabraMenuTipo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#031A97;
+    font-size: 20px;
+}
+
+#tituloSecundario{
+    margin:0 auto;
+}
+
+table, th, td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#031A97;
+    border-collapse: collapse;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*Estilos de la galeria*/
+
+.galeria {
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galeria li {
+    margin: 5px;
+}
+
+.galeria img {
+    width: 400px;
+    height: 400px;
+}
+
+/*Estilos del modal*/
+
+.modal {
+    display: none;
+}
+
+.modal:target {
+    
+    display: block;
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.imagen a:nth-child(2) {
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+}
+
+.imagen img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.cerrar {
+    display: block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+
+

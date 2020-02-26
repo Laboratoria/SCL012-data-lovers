@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Data Lovers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  <div class="contenedor"> 
+    <header class="header">
+        <div class = "logo">
+            <img src="logo-maestro.png" alt="" id=maestro-poke>
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="index.html" class="menu-nav"><p id="palabraMenu">Inicio</p></a>
+                <a href="tipos.html" class="menu-nav"><p id="palabraMenu">Tipos de Pokemomes</p></a>
+                <a href="top.html" class="menu-nav"><p id="palabraMenu">Top 10 de Aparicion</p></a>
+                <a href="captura.html" class="menu-nav"><p id="palabraMenu">Captura de Pokemones</p></a>
+            </nav>
+        </div>
+    </header>
+    <section class="section">
+        <div  class="hijo" id="descripcion-poder-texto">
+            <p id="palabraMenu">
+              <strong> MAESTRO GUERRERO :</strong>  A este maestro le interesa entrenar alos pokemones para combatir y ganar todas las batallas, por lo
+              que necesita tener en su poder a los pokemones màs fuertes en todo sentido.  
+            </p>
+        </div>
+        <div class="hijo" id="info-app">
+            <div id="explicacion">
+              <img src="pikapika.jpeg" height="200" width="500">
+            </div>
+            <button onclick="location.href='https://play.google.com/store/apps/details?id=com.nianticlabs.pokemongo&hl=en'" id="buttonDescargar" class="button">VER RANKING</button>
+        </div>
+        <div class="hijopoder" id="selectPoder">
+        <div class="hijoDos" id="select">
+            <div id="seleccionPoderDev">
+              <h1>Ordenar por:</h1>
+            </div>
+            <select  class="seleccion" name="ordenarPor" id="ordenar">
+                <option value=""></option>
+                  <option value="fuertes">Más fuertes</option>
+                  <option value="debiles">Más débiles</option>
+            </select>
+        </div>
+        <div class="hijotablapoder" id="tablapoderdespliegue">
+           <div id="hijoGuerrero">
+           </div>
+        </div>      
+      </section>
+    <footer></footer>
+    <script type="module" src="debilidades.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
